@@ -1,0 +1,1 @@
+"""Feature handlers — one module per editing capability."""
