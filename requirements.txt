@@ -1,0 +1,26 @@
+# Core runtime
+numpy>=1.26,<3
+Pillow>=10.2
+pydantic>=2.6,<3
+tomli>=2.0 ; python_version < "3.11"
+tomli-w>=1.0
+rich>=13.7
+watchdog>=4.0
+
+# Media pipeline
+av>=12.0            # PyAV bindings over ffmpeg libs
+ffmpeg-python>=0.2
+opencv-python-headless>=4.9
+
+# Model inference (CPU path always available)
+onnxruntime>=1.17
+# onnxruntime-gpu>=1.17  # uncomment for CUDA EP on supported builds
+
+# GUI
+PySide6>=6.6
+
+# Dev / test
+pytest>=8.0
+pytest-benchmark>=4.0
+ruff>=0.4
+mypy>=1.9
