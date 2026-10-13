@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller / Nuitka build artifacts
+*.spec
+*.exe
+*.pyd
+*.manifest
+
+# Model weights & caches (never commit checkpoints)
+models/weights/*.onnx
+models/weights/*.pt
+models/weights/*.safetensors
+models/weights/*.gguf
+.cache/
+.cache/torch/
+.cache/huggingface/
+
+# Rendered output & scratch timelines
+renders/
+exports/
+scratch/
+*.mp4
+*.mov
+*.mkv
+*.wav
+
+# Logs & profiling
+logs/
+*.log
+*.prof
+*.pstats
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Local secrets
+config/local.toml
+config/secrets.env
